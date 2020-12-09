@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Webform by Andrew Silent</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="webform">
+            <h1 class="webform-title">Register</h1>
+            <p class="webform-descr">Create your account. It`s free and only takes a minute.</p>
+            <form class="webform-body">
+                <fieldset class="personal-fieldset">
+                    <input class="webform-input" type="text" required autofocus placeholder="First Name" name="userName">
+                    <input class="webform-input" type="text" required placeholder="Last Name" name="userName">
+                </fieldset>
+                <input class="webform-input" type="email" required placeholder="Email" name="userEmail">
+                <input class="webform-input" type="password" required placeholder="Password" name="userPassword">
+                <input class="webform-input" type="password" required placeholder="Confirm Password" name="userConfirm">
+                <fieldset class="checkbox-fieldset">
+                    <input class="webform-checkbox" type="checkbox" required name="userAgreement">
+                    <span>I accept the <a href="#" class="webform-link">Terms of Use</a> & <a href="#" class="webform-link">Privacy Policy</a>.</span>
+                </fieldset>
+                <button class="webform-btn">Register Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

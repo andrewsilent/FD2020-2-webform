@@ -1,0 +1,136 @@
+html, body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font: 400 0.95rem/1.25 Arial, Helvetica, sans-serif;
+}
+
+input, button, label, fieldset {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+fieldset {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+*, :focus {
+    outline: none;
+}
+
+body {
+    background-color: #aaa;
+    color: #777;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.webform {
+    max-width: 350px;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 35px;
+    margin-top: 200px;
+}
+
+.webform-title {
+    display: flex;
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+    color: #555;
+    text-align: center;
+    overflow: hidden;
+}
+
+.webform-title::before, 
+.webform-title::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #999;
+    align-self: center;
+}
+
+.webform-title::before {
+    margin-right: 10px;
+}
+
+.webform-title::after {
+    margin-left: 10px
+}
+
+.webform-descr {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.webform-body {
+    margin-top: 20px;
+}
+
+.webform-input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.personal-fieldset {
+    display: flex;
+    justify-content: stretch;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+    height: 100%;
+}
+
+.personal-fieldset .webform-input + .webform-input {
+    margin-left: 20px;
+}
+
+.checkbox-fieldset {
+    margin: 10px 0;
+}
+
+.webform-checkbox {
+    border-radius: 2px;
+    background-color: #FFF;
+    padding: 10px 0;
+    vertical-align: top;
+}
+
+.webform-link {
+    color: #484;
+}
+
+.webform-btn {
+    background-image: linear-gradient(180deg, rgba(85,187,85,1) 0%, rgba(68,136,68,1) 100%);
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
